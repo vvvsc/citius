@@ -7,21 +7,21 @@
 <title>Citius. Trámites legales &ndash; Trámites &ndash; Legales</title>
 <link rel="stylesheet" href="./pure-min.css" />
 <link rel="stylesheet" href="./styles.css" />
-<style>
-.l-box {
-padding: 2em;
-text-align: justify;
-}
-</style>
+  <style>
+  .l-box {
+  padding: 2em;
+  text-align: justify;
+  }
+  </style>
 </head>
 <body>
 <div id="layout">
-<!-- Menu toggle -->
-<a href="#menu" id="menuLink" class="menu-link">
-<!-- Hamburger icon -->
-<span></span>
-</a>
 
+<!-- Menu  -->
+
+<a href="#menu" id="menuLink" class="menu-link">
+<img src="./menu.png" />
+</a>
 <div id="menu">
 <div class="pure-menu">
 <a class="pure-menu-heading" href="#orgnización">Citius</a>
@@ -39,42 +39,48 @@ text-align: justify;
 </div>
 </div>
 
+<!-- Sección Titular -->
+
 <div id="main">
 <div class="header">
-        <a name=home id=home></a>
+<a name=home id=home></a>
 <h1>Citius</h1>
 <h2>Trámites en la Ciudad de Asunción</h2>
 </div>
 
+<!-- Seccion Contenido -->
+
 <div class="content">
-    <a name=certificaciones id=certificaciones></a>
+  <a name=certificaciones id=certificaciones></a>
+  <!-- Ancla para el link #certificaciones -->
 
-<div class="l-box">
-<h2 class="content-subhead">Certificaciones</h2>
-<p>
+  <!-- l-box es una clase agregada, son como cajas donde va el texto,etc -->
+  <div class="l-box">
+  <h2 class="content-subhead">Certificaciones</h2>
+  <p>
+  Ofrecemos servicios de certificación de documentos, asegurando que tus papeles cumplan con todos los requisitos legales necesarios. Ya sea para trámites personales, laborales o académicos, nuestro equipo está preparado para ayudarte a obtener las certificaciones que necesitas.
+  </p>
+</div>
 
-Ofrecemos servicios de certificación de documentos, asegurando que tus papeles cumplan con todos los requisitos legales necesarios. Ya sea para trámites personales, laborales o académicos, nuestro equipo está preparado para ayudarte a obtener las certificaciones que necesitas.
 
-</p></div>
-
-
-<!-- GRID 01 -->
+<!-- Grilla 01 -->
 
 <div class="pure-g">
-<div class="pure-u-1-2">
-<div class="l-box">
-<p>
-En Citius, entendemos los desafíos que enfrentan nuestros connacionales al estar lejos de casa. Nuestro compromiso es ofrecer un servicio integral de trámites legales, diseñado especialmente para facilitar la vida de los paraguayos en el extranjero.
-</p>
-</div>
+  <div class="pure-u-1-2">
+  <div class="l-box">
+  <p>
+  En Citius, entendemos los desafíos que enfrentan nuestros connacionales al estar lejos de casa. Nuestro compromiso es ofrecer un servicio integral de trámites legales, diseñado especialmente para facilitar la vida de los paraguayos en el extranjero.
+  </p>
+  </div>
+  </div>
+
+  <div class="pure-u-1-2">
+  <div class="l-box">
+  <img class="pure-img-responsive" src="./logo.svg" />
+  </div>
 </div>
 
-<div class="pure-u-1-2">
-<div class="l-box">
-<img class="pure-img-responsive" src="./logo.svg" />
-</div>
-</div>
-
+<!-- Traducciones. -->
 
 </div>
 <div class="l-box">
@@ -82,10 +88,11 @@ En Citius, entendemos los desafíos que enfrentan nuestros connacionales al esta
 <h2 class="content-subhead">Traducciones</h2>
 <p>
 La barrera del idioma no debe ser un obstáculo. Contamos con traductores profesionales y certificados que garantizan la precisión y validez de tus documentos. Desde actas de nacimiento hasta contratos laborales, nos aseguramos de que cada traducción sea fiel al original y cumpla con las normativas internacionales.
-</p> </div>
+</p>
+</div>
 
 
-<!-- GRID 02 -->
+<!-- Grilla 02 -->
 <a name=about id=about></a>
 <div class="pure-g">
 <div class="pure-u-1-2">
@@ -104,6 +111,8 @@ Confidencialidad: Tu información es tratada con la máxima discreción y seguri
 </div>
 </div>
 
+<!-- Contacto. -->
+
 <a name=contact id=contact></a>
 <div class="l-box">
 <h2 class="content-subhead">Contáctanos</h2>
@@ -111,25 +120,28 @@ Confidencialidad: Tu información es tratada con la máxima discreción y seguri
 Si necesitas asistencia con certificaciones, traducciones o cualquier otro trámite legal, no dudes en contactarnos. Estamos aquí para ayudarte a navegar por los procesos legales desde el extranjero.
 </p>
 </div>
+
+<!-- Contacto -->
+
 <div class="l-box">
 <!-- modify this form HTML and place wherever you want your form -->
 <form class="pure-form pure-form-stacked"
 action="https://formspree.io/f/mpwzwqwp"
-  method="POST"
+method="POST"
 >
 <fieldset>
-  <label>
-    Email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Mensaje:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-        <button type="submit" class="pure-button pure-button-primary">Enviar</button>
-    </fieldset>
-  </form>
+<label>
+Email:
+<input type="email" name="email" size="50">
+</label>
+<label>
+Mensaje:
+<textarea name="message" rows="5" cols="50"></textarea>
+</label>
+<!-- Pueden haber más -->
+<button type="submit" class="pure-button pure-button-primary">Enviar</button>
+</fieldset>
+</form>
 </div>
 </div>
 </div>
